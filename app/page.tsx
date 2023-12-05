@@ -29,7 +29,7 @@ export default function Home() {
 
   return (
     <>
-      <div className=" grid-cols-1 lg:grid-cols-2 grid gap-4 lg:gap-8   border border-neutral-600 p-4 md:p-8 flex-1 content-start">
+      <div className=" grid-cols-1 lg:grid-cols-2 grid gap-4 lg:gap-8  border border-neutral-600 p-4 md:p-8 flex-1 content-start">
         <div className="">
           <section className="w-full flex flex-col sticky top-8">
             <Image
@@ -39,7 +39,7 @@ export default function Home() {
               className=" overflow-hidden  mb-4"
               alt={`${personalDetails.name} avatar`}
             ></Image>
-            <div className="text-4xl font-bold pb-2 text-neutral-800">
+            <div className="text-2xl lg:text-3xl font-semibold pb-2 text-neutral-800">
               {personalDetails.name}
             </div>
             <div className="w-full lg:w-4/5 ">{personalDetails.aboutMe}</div>
